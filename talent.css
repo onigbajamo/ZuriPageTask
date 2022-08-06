@@ -1,0 +1,396 @@
+@import url("http://fonts.cdnfonts.com/css/graphik");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rgb(88, 87, 87);
+  font-family: "Graphik", "sans-serif";
+  margin-right: 0 auto;
+  background: #fff;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 49px;
+}
+
+.container {
+  max-width: 1134px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 80px;
+  padding: 20px 0;
+}
+
+nav .container,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  background: #e7332b;
+  border-radius: 0px 0px 3px 0;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 30px;
+}
+
+nav ul li {
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+nav ul li:hover {
+  border-bottom: 3px solid #e7332b;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 100px 0;
+  position: relative;
+}
+
+.hero .container,
+.countries_impact .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  align-items: center;
+}
+
+.hero .container img {
+  width: 80%;
+  margin-left: 120px;
+}
+
+span {
+  color: #e7332b;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  line-height: 3.06rem;
+  color: #161617;
+  width: 490px;
+}
+
+.hero p {
+  font-size: 1.18rem;
+  line-height: 1.37rem;
+  color: #787878;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.btn_hero {
+  margin-top: 30px;
+}
+
+.firstBtn {
+  padding: 11px 50px;
+  background: #e7332b;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 0 0 5px 0;
+}
+
+.secondBtn {
+  padding: 11px 50px;
+  background: #585858;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 0 0 5px 0;
+}
+
+.first_box {
+  position: relative;
+}
+
+/*.second_box {
+  position: relative;
+}*/
+
+/*.line2 {
+  margin-bottom: -180px;
+  position: absolute;
+  right: 0px;
+  mix-blend-mode: soft-light;
+}*/
+
+.thick {
+  position: absolute;
+  width: 100px;
+  height: 36.8281px;
+  top: 17px;
+  right: -140px;
+}
+
+.countries_impact {
+  background: #fdf3f2;
+  padding: 100px 0;
+}
+
+.countries_impact h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 49px;
+}
+
+.section2img {
+  width: 100%;
+}
+
+.countries_impact h4 {
+  font-size: 1.1875rem;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+.countries_impact p {
+  font-size: 1.1875rem;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 10px;
+  color: #787878;
+}
+
+.country_flag {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-top: 19px;
+}
+
+.countries {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  margin-right: 16px;
+  padding: 7px;
+  width: 55px;
+}
+
+.skills {
+  padding: 100px 0;
+}
+
+.skillone button {
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px hsla(0, 0%, 48%, 0.16);
+  color: #787878;
+  border: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  justify-content: center;
+  line-height: 33px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.skillone button:hover {
+  position: relative;
+  -webkit-animation: glide 1s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes glide {
+  from {
+    left: 0px;
+    top: 0px;
+  }
+
+  to {
+    left: 0px;
+    top: -20px;
+  }
+}
+
+.secondhheading {
+  margin-top: 50px;
+}
+
+.cards {
+  background: #fff8e5;
+  padding: 100px 0;
+}
+
+.cards h2 {
+  text-align: center;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-content: center;
+  gap: 15px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.secondgrid {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.card_box {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0 0 16px 0;
+  color: #787878 !important;
+  justify-content: center;
+  padding: 45px 10px;
+}
+
+.card_box:hover {
+  background: #161617;
+}
+
+.card_box img {
+  padding-bottom: 50px;
+}
+
+.secondgroup .secondgrid .second_box {
+  padding: 50px;
+}
+
+.btn_down {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.btn_down button {
+  margin-right: 20px;
+}
+
+footer {
+  background: #161617;
+  padding: 50px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialicon {
+  width: 50px;
+}
+
+.copyrightcont .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+
+  ul li {
+    display: none;
+  }
+
+  nav,
+  .countries_impact,
+  .skills,
+  .hero .container,
+  .cards {
+    padding: 50px;
+  }
+
+  .cardContainer,
+  .secondgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .country_flag {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 250px;
+  }
+
+  h1,
+  .countries_impact h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 250px;
+  }
+
+  .logonav {
+    width: 80px;
+  }
+  .skills h2 br {
+    display: none;
+  }
+
+  .btn_hero button {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .btn_down {
+    display: block;
+    text-align: center;
+  }
+
+  .btn_down .secondBtn {
+    margin-top: 20px;
+  }
+
+  footer {
+    padding: 50px;
+    text-align: center;
+  }
+
+  footer .container {
+    display: block;
+  }
+
+  footer .socialicon {
+    width: 20px;
+    margin-top: 20px;
+  }
+
+  .copyrightcont .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
